@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JEOPARDY!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheets/jeopardy.css">
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <img src="assets/images/logo.jpg" alt="Jeopardy Rainbow logo">
+      </div>
+    </div>
+    <div id="cards" class="page-row">
+      <div class ="card">
+        <h2>Question:<br></br><div id="question"></h2>
+      </div>
+      <div class ="card">
+        <h2>Category:<br></br><div id="category"></h2>
+      </div>
+      <div class ="card">
+        <h2>Point Value:<br></br><div id="point-value"></h2>
+      </div>
+    </div>
+    <form>
+      <div class="textbox">
+        <div id="textarea">
+          <label for="name">Answer:</label>
+          <input id="answer" type="text" placeholder="What is...">
+        </div>
+      </div>
+    </form>
+    <button id="button">Submit</button>
+    <div id="score">
+      <h3>Score: <span id="counter">0</span></h3>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/jeopardy.js"></script>
+  </body>
+</html>
